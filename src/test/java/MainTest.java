@@ -85,7 +85,7 @@ public class MainTest {
     @DisplayName("Deluxe Burger sınıf değişkenleri doğru değerlere sahip mi?")
     @Test
     public void testDeluxeBurgerInstanceVariables() throws NoSuchFieldException {
-        assertEquals(deluxeBurger.getChips(), "CURVY");
+        assertEquals(deluxeBurger.getCips(), "CURVY");
         assertEquals(deluxeBurger.getDrink(), "COKE");
     }
 
