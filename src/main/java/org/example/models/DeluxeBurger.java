@@ -1,22 +1,20 @@
-package org.example;
+package org.example.models;
 
-public class DeluxBurger extends Hamburger{
+public class DeluxeBurger extends Hamburger {
+    private String chips;
+    private String drink;
 
-    private  String chips;
-    private  String drink;
-
-    public DeluxBurger(){
-
-        super("Delux Burger","Double",19.10,"Double Sandwich");
-        this.chips = "Curvy";
-        this.drink = "Coke";
+    public DeluxeBurger() {
+        super("Deluxe Burger", "Double", 19.10, "Double Sandwich");
+        this.chips = "CURVY";
+        this.drink = "COKE";
     }
 
-    public  String getChips(){
+    public String getCips() {
         return chips;
     }
 
-    public  String getDrink(){
+    public String getDrink() {
         return drink;
     }
 
@@ -39,7 +37,4 @@ public class DeluxBurger extends Hamburger{
     public void addHamburgerAddition4(String name, double price) {
         System.out.println("Deluxe Burger için yeni malzeme eklenemez.");
     }
-
-
-
 }
